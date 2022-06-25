@@ -90,7 +90,6 @@ public class DallEdeGenService {
             } catch (URISyntaxException | IOException | TelegramApiException | InterruptedException e) {
                 e.printStackTrace();
             }
-            silent.send("generated deez", context.chatId());
         });
     }
 
